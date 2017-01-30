@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/exit_dialog_bg"
+    android:orientation="vertical" >
+
+  <TableLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text="&quot;ARE YOU SURE TO EXIT!&quot;"
+          android:textColor="#102644"
+          android:textSize="14sp"
+          android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
+
+      TextView
+          android:id="@+id/textView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:gravity="center"
+          android:text=" "
+          android:textColor="@android:color/black"
+          android:textStyle="bold" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+      <Button
+          android:id="@+id/btnOKId"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="#216e21"
+          android:text="OK"
+          android:padding="5dp"
+          android:textSize="14sp"
+          android:textColor="@android:color/white"
+          android:textStyle="bold" />
+
+      <Button
+          android:id="@+id/btnCancelId"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:background="#7e1593"
+          android:text="CANCEL"
+          android:padding="5dp"
+          android:textSize="14sp"
+          android:textColor="@android:color/white"
+          android:textStyle="bold" />
+    </TableRow>
+      <!--<TableRow-->
+          <!--android:layout_width="match_parent"-->
+          <!--android:layout_height="wrap_content"-->
+          <!--android:id="@+id/tableRow5">-->
+
+          <!--<TextView-->
+              <!--android:layout_width="wrap_content"-->
+              <!--android:layout_height="wrap_content"-->
+              <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+              <!--android:text="\nBye Bye"-->
+              <!--android:gravity="center"-->
+              <!--android:id="@+id/textView7" />-->
+      <!--</TableRow>-->
+  </TableLayout>
+
+</LinearLayout>

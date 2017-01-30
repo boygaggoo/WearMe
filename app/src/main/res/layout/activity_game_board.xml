@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradient_background"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/b_screen">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPagerBoyAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button_correct" />
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="4dp"
+        card_view:cardElevation="10dp"
+        card_view:contentPadding="10dp"
+        card_view:paddingStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_below="@+id/textView_country_name_in_gameboard"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/imageView_country_flag_in_gameboard"
+            android:layout_width="180dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView_country_name_in_gameboard"
+            android:src="@drawable/myanmar_flag_275_183" />
+    </android.support.v7.widget.CardView>
+    <TextView
+        android:id="@+id/textView_country_name_in_gameboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Myanmar"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/card_view"
+        android:layout_marginStart="54dp" />
+
+    <Button
+        android:id="@+id/button_correct"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/check_ok_button_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

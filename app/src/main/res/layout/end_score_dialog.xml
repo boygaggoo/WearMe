@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/score_dialog_bg"
+    android:gravity="center"
+    android:id="@+id/score_screen"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Your Score is"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView_scores"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="10 Clicks - 10 Correct"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/white" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_home_score_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/home_text_button_selector" />
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/button_continue_score_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/continue_button_selector" />
+    </LinearLayout>
+</LinearLayout>

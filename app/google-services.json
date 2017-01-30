@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1027883435418",
+    "firebase_url": "https://wear-me.firebaseio.com",
+    "project_id": "wear-me",
+    "storage_bucket": "wear-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027883435418:android:e4e35e59e76cd031",
+        "android_client_info": {
+          "package_name": "com.immortal.awitd.wearme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027883435418-9of8t9f0u3n80lil9f5c4hc6364jc0jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnmm0UlXEu-izg9-RUdVEl3XX7uLIe0Sw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
